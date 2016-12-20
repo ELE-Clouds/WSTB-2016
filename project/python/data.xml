@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+    <class name="标准协议">
+        <item name="标准搜索网"></item>
+        <item name="分享网"></item>
+    </class>
+    <class name="视频下载">
+        <item name="搜库" key="TEST">http://www.soku.com/search_video/q_TEST</item>
+        <item name="哔哩哔哩" key="TEST">http://search.bilibili.com/all?keyword=TEST</item>
+    </class>
+</catalog>
