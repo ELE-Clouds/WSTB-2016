@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WSTB>
+    <category name="default" >
+	    <engine name="Baidu" key="TEST" url="https://www.baidu.com/s?wd=TEST"></engine>
+	</category>
+    <category name="Video">
+	    <engine name="SOKU" key="TEST" url="http://www.soku.com/v/?keyword=TEST"></engine>
+		<engine name="bilibili" key="TEST" url="http://search.bilibili.com/all?keyword=TEST"></engine>
+	</category>
+	<category name="Standard">
+        <engine name="Bzsoso" key="TEST" url="http://www.bzsoso.com/engine.aspx?enginetype=0&amp;Keyword=TEST"></engine>
+	</category>
+	<category name="Technology">
+	    <engine name="Alldatasheet" key="TEST" url="http://www.alldatasheetcn.com/view.jsp?engineword=TEST"></engine>
+	</category>
+	<category name="Material">
+	    <engine name="Iconfinder" key="TEST" url="http://www.iconfinder.net/engine/?q=TEST"></engine>
+	</category>
+</WSTB>
