@@ -1,19 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    XML 中，不能出现“&”，“<”，“>"，需要使用转义字符替换，依左侧顺序依次为：“&amp;”、“&lt;”、“&gt;”，单引号：&apos;，双引号：&quot; 。
+	注意：转义字符以分号“;”结尾，且中间不能有空格。以下网址中经常出现需要转义的字符。
+-->
 <WSTB>
-    <category name="default" >
-	    <engine name="Baidu" key="TEST" url="https://www.baidu.com/s?wd=TEST"></engine>
+    <category name="综合" >
+	    <engine name="百度" key="TEST" url="https://www.baidu.com/s?wd=TEST"></engine>
 	</category>
-    <category name="Video">
-	    <engine name="SOKU" key="TEST" url="http://www.soku.com/v/?keyword=TEST"></engine>
-		<engine name="bilibili" key="TEST" url="http://search.bilibili.com/all?keyword=TEST"></engine>
+	<category name="工具">
+	    <engine name="谷歌翻译（中-英）" key="TEST" url="http://translate.google.cn/#zh-CN/en/TEST"></engine>
+		<engine name="谷歌翻译（英-中）" key="TEST" url="http://translate.google.cn/#en/zh-CN/TEST"></engine>
 	</category>
-	<category name="Standard">
-        <engine name="Bzsoso" key="TEST" url="http://www.bzsoso.com/engine.aspx?enginetype=0&amp;Keyword=TEST"></engine>
+    <category name="视频">
+	    <engine name="搜库" key="TEST" url="http://www.soku.com/v/?keyword=TEST"></engine>
+		<engine name="哔哩哔哩" key="TEST" url="http://search.bilibili.com/all?keyword=TEST"></engine>
 	</category>
-	<category name="Technology">
+	<category name="标准">
+        <engine name="标准搜索网" key="TEST" url="http://www.bzsoso.com/engine.aspx?enginetype=0&amp;Keyword=TEST"></engine>
+	</category>
+	<category name="技术">
 	    <engine name="Alldatasheet" key="TEST" url="http://www.alldatasheetcn.com/view.jsp?engineword=TEST"></engine>
+		<engine name="电子发烧友" key="TEST" url="http://s.elecfans.com/cse/search?s=6298135183618923127&amp;entry=1&amp;q=TEST"></engine>
+		<engine name="与非网" key="TEST" url="http://search.eefocus.com/s?sub=1&amp;q=TEST"></engine>
 	</category>
-	<category name="Material">
-	    <engine name="Iconfinder" key="TEST" url="http://www.iconfinder.net/engine/?q=TEST"></engine>
+	<category name="资源">
+	    <engine name="Iconfinder" key="TEST" url="https://www.iconfinder.net/engine/?q=TEST"></engine>
+		<engine name="找DLL" key="TEST" url="http://www.zhaodll.com/search.asp?word=TEST"></engine>
+		<engine name="搜字网" key="TEST" url="http://ziti.sozi.cn/search.php?keyword=TEST"></engine>
+		<engine name="字体量贩" key="TEST" url="http://www.font5.com.cn/font_search.php?searchkey=TEST"></engine>
+		<engine name="求字体" key="TEST" url="http://www.qiuziti.com/fontlist.aspx?fn=TEST"></engine>
+	</category>
+	<category name="生活">
+	    <engine name="豆瓣" key="TEST" url="https://www.douban.com/search?source=suggest&amp;q=TEST"></engine>
+		<engine name="365淘房" key="TEST" url="http://nj.rent.house365.com/district/dl_kwTEST.html"></engine>
+	</category>
+	<category name="购物">
+	    <engine name="淘宝" key="TEST" url="https://s.taobao.com/search?q=TEST"></engine>
+		<engine name="天猫" key="TEST" url="https://list.tmall.com/search_product.htm?q=TEST"></engine>
+		<engine name="苏宁易购" key="TEST" url="http://search.suning.com/TEST/"></engine>
+		<engine name="京东" key="TEST" url="https://search.jd.com/Search?keyword=TEST"></engine>
+		<engine name="当当" key="TEST" url="http://search.dangdang.com/?key=TEST"></engine>
+		<engine name="新蛋" key="TEST" url="http://www.newegg.cn/Search.aspx?keyword=TEST"></engine>
 	</category>
 </WSTB>
