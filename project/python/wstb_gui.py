@@ -8,6 +8,7 @@ import webbrowser
 import wstb_mod    #XML文件操作模块
 
 win = tk.Tk()
+win.resizable(0, 0)
 lis_Files=['./data_wstb.xml','./wstb_mod.py']
 lisUrl=[]    #网址列表
 
