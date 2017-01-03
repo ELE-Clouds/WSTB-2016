@@ -7,9 +7,10 @@ import ttk as ttk
 import webbrowser
 import wstb_mod    #XML文件操作模块
 
+
 win = tk.Tk()
 win.resizable(0, 0)
-lis_Files=['./data_wstb.xml','./wstb_mod.py']
+lis_Files=['./data_wstb.xml','./wstb_mod.py','./wstb_encode_mod.py']
 lisUrl=[]    #网址列表
 
 
@@ -39,7 +40,7 @@ def _FileIntegrityCheck(lisFiles):
 
 #搜索关键字
 def search(_strUrl,_strKey):
-    webbrowser.open( wstb_mod.str_read(_strUrl,'TEST',_strKey))
+    webbrowser.open( wstb_mod.str_read(_strUrl,engineChosen.current(),'TEST',_strKey))
     return
 
 
@@ -51,8 +52,8 @@ def evKey(event):
 
 #下拉列表框点击后的事件
 def catSelcomb(event):
-    lis1 = ([])
-    lis2 = []
+    lis1 = ([])  #引擎
+    lis2 = []    #地址
     global lisUrl
     lis1,lis2 = wstb_mod.getLisEngine(categoryChosen.current())
     engineChosen['values'] = lis1
