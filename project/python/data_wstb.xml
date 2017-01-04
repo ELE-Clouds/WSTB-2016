@@ -7,58 +7,59 @@
 -->
 <WSTB>
     <category name="综合" >
-	<engine name="百度" key="TEST" coding="utf8" url="https://www.baidu.com/s?wd=TEST"></engine>
-	<engine name="必应" key="TEST" coding="utf8" url="http://cn.bing.com/search?q=TEST"></engine>
+	    <engine name="百度" key="TEST" coding="utf8" url="https://www.baidu.com/s?wd=TEST"></engine>
+		<engine name="必应" key="TEST" coding="utf8" url="http://cn.bing.com/search?q=TEST"></engine>
 	</category>
 	<category name="工具">
-	<engine name="谷歌翻译（中-英）" key="TEST" coding="utf8" url="http://translate.google.cn/#zh-CN/en/TEST"></engine>
-	<engine name="谷歌翻译（英-中）" key="TEST" coding="utf8" url="http://translate.google.cn/#en/zh-CN/TEST"></engine>
+	    <engine name="谷歌翻译（中-英）" key="TEST" coding="utf8" url="http://translate.google.cn/#zh-CN/en/TEST"></engine>
+		<engine name="谷歌翻译（英-中）" key="TEST" coding="utf8" url="http://translate.google.cn/#en/zh-CN/TEST"></engine>
 	</category>
     <category name="视频">
-	<engine name="搜库" key="TEST" coding="utf8" url="http://www.soku.com/v/?keyword=TEST"></engine>
-	<engine name="哔哩哔哩" key="TEST" coding="utf8" url="http://search.bilibili.com/all?keyword=TEST"></engine>
-	<engine name="迅雷看看" key="TEST" coding="utf8" url="http://search.kankan.com/search.php?keyword=TEST"></engine>
+	    <engine name="搜库" key="TEST" coding="utf8" url="http://www.soku.com/v/?keyword=TEST"></engine>
+		<engine name="哔哩哔哩" key="TEST" coding="utf8" url="http://search.bilibili.com/all?keyword=TEST"></engine>
+		<engine name="迅雷看看" key="TEST" coding="utf8" url="http://search.kankan.com/search.php?keyword=TEST"></engine>
 	</category>
 	<category name="标准">
         <engine name="标准搜索网" key="TEST" coding="utf8" url="http://www.bzsoso.com/engine.aspx?enginetype=0&amp;Keyword=TEST"></engine>
-    </category>
-    <category name="技术">
-	<engine name="电子发烧友" key="TEST" coding="utf8" url="http://s.elecfans.com/cse/search?s=6298135183618923127&amp;entry=1&amp;q=TEST"></engine>
-	<engine name="与非网" key="TEST" coding="utf8" url="http://search.eefocus.com/s?sub=1&amp;q=TEST"></engine>
-    </category>
-    <category name="器件手册" >
-	<engine name="Alldatasheet" key="TEST" coding="utf8" url="http://www.alldatasheetcn.com/view.jsp?engineword=TEST"></engine>
-	<engine name="ST中国" key="TEST" coding="utf8" url="http://www.st.com/content/st_com/zh/search.html#q=TEST-t=keywords-page=1"></engine>
-	<engine name="TI中国" key="TEST" coding="utf8" url="http://www.ti.com.cn/sitesearch/cn/docs/universalsearch.tsp?searchTerm=TEST#linkId=1&amp;src=top"></engine>
-	<engine name="Omron中国" key="TEST" coding="utf8" url="http://search2.ia.omron.com/OEZ/?q=TEST"></engine>
-	<engine name="菲尼克斯" key="TEST" coding="utf8" url="https://www.phoenixcontact.com/online/portal/cn?q=TEST&amp;uri=pxc-search%3Awebsite&amp;library=cnzh"></engine>
-	<engine name="NXP" key="TEST" coding="utf8" url="http://www.nxp.com/search?client=nxp_search_all_results&amp;site=nxp_zhHans&amp;proxystylesheet=nxp_search_style_fe&amp;sort=date%3AD%3AL%3Ad1&amp;oe=UTF-8&amp;ie=UTF-8&amp;ud=1&amp;output=xml_no_dtd&amp;exclude_apps=1&amp;callback=ss_show&amp;lang_cd=zh-Hans&amp;filter=0&amp;getfields=*&amp;baseUrl=http%3A%2F%2Fwww.nxp.com%2Fcn%2Fwebapp&amp;SEARCH_OPERATOR=Contains&amp;attempt=-1&amp;rc=1&amp;hl=en&amp;dnavs=&amp;q=TEST"></engine>
-	<engine name="WURTH ELEKTRONIK" key="TEST" coding="utf8" url="http://www.we-online.com/web/en/wuerth_elektronik/searchpage.php?search=TEST"></engine>
-	<!-- <engine name="TI" key="TEST" coding="utf8" url="http://cn.bing.com/search?q=TEST"></engine>  -->
-    </category>
-    <category name="资源">
-        <engine name="Iconfinder" key="TEST" coding="utf8" url="https://www.iconfinder.com/search/?q=TEST"></engine>
-        <engine name="easyicon" key="TEST" coding="utf8" url="http://www.easyicon.net/iconsearch/TEST/"></engine>
-        <engine name="iconpng" key="TEST" coding="utf8" url="http://www.iconpng.com/search/tag=TEST"></engine>
-        <engine name="百度网盘资源" key="TEST" coding="utf8" url="http://www.friok.com/?s=TEST"></engine>
-        <engine name="小众软件" key="TEST" coding="utf8" url="http://s.appinn.com/cse/search?q=TEST"></engine>
-        <engine name="开源中国" key="TEST" coding="utf8" url="https://www.oschina.net/search?scope=project&amp;q=TEST"></engine>
-        <engine name="找DLL" key="TEST" coding="utf8" url="http://www.zhaodll.com/search.asp?word=TEST"></engine>
-        <engine name="搜字网" key="TEST" coding="utf8" url="http://ziti.sozi.cn/search.php?keyword=TEST"></engine>
-        <engine name="字体量贩" key="TEST" coding="utf8" url="http://www.font5.com.cn/font_search.php?searchkey=TEST"></engine>
-        <engine name="求字体" key="TEST" coding="utf8" url="http://www.qiuziti.com/fontlist.aspx?fn=TEST"></engine>
-    </category>
-    <category name="生活">
-        <engine name="豆瓣" key="TEST" coding="utf8" url="https://www.douban.com/search?source=suggest&amp;q=TEST"></engine>
-        <engine name="365淘房" key="TEST" coding="utf8" url="http://nj.rent.house365.com/district/dl_kwTEST.html"></engine>
-        <engine name="房天下-租房" key="TEST" ccoding="utf8" url="http://zu.nanjing.fang.com/house/s31-kwTEST/"></engine>
-    </category>
-    <category name="购物">
-        <engine name="淘宝" key="TEST" coding="utf8" url="https://s.taobao.com/search?q=TEST"></engine>
-        <engine name="天猫" key="TEST" coding="utf8" url="https://list.tmall.com/search_product.htm?q=TEST"></engine>
-        <engine name="苏宁易购" key="TEST" coding="utf8" url="http://search.suning.com/TEST/"></engine>
-        <engine name="京东" key="TEST" coding="utf8" url="https://search.jd.com/Search?keyword=TEST"></engine>
-        <engine name="当当" key="TEST" coding="utf8" url="http://search.dangdang.com/?key=TEST"></engine>
-        <engine name="新蛋" key="TEST" coding="utf8" url="http://www.newegg.cn/Search.aspx?keyword=TEST"></engine>
-    </category>
+	</category>
+	<category name="技术">
+	    <engine name="电子发烧友" key="TEST" coding="utf8" url="http://s.elecfans.com/cse/search?s=6298135183618923127&amp;entry=1&amp;q=TEST"></engine>
+		<engine name="与非网" key="TEST" coding="utf8" url="http://search.eefocus.com/s?sub=1&amp;q=TEST"></engine>
+		<engine name="博客园" key="TEST" coding="utf8" url="http://zzk.cnblogs.com/s?t=b&amp;w=TEST"></engine>
+	</category>
+	<category name="器件手册" >
+	    <engine name="Alldatasheet" key="TEST" coding="utf8" url="http://www.alldatasheetcn.com/view.jsp?engineword=TEST"></engine>
+	    <engine name="ST中国" key="TEST" coding="utf8" url="http://www.st.com/content/st_com/zh/search.html#q=TEST-t=keywords-page=1"></engine>
+		<engine name="TI中国" key="TEST" coding="utf8" url="http://www.ti.com.cn/sitesearch/cn/docs/universalsearch.tsp?searchTerm=TEST#linkId=1&amp;src=top"></engine>
+		<engine name="Omron中国" key="TEST" coding="utf8" url="http://search2.ia.omron.com/OEZ/?q=TEST"></engine>
+		<engine name="菲尼克斯" key="TEST" coding="utf8" url="https://www.phoenixcontact.com/online/portal/cn?q=TEST&amp;uri=pxc-search%3Awebsite&amp;library=cnzh"></engine>
+		<engine name="NXP" key="TEST" coding="utf8" url="http://www.nxp.com/search?client=nxp_search_all_results&amp;site=nxp_zhHans&amp;proxystylesheet=nxp_search_style_fe&amp;sort=date%3AD%3AL%3Ad1&amp;oe=UTF-8&amp;ie=UTF-8&amp;ud=1&amp;output=xml_no_dtd&amp;exclude_apps=1&amp;callback=ss_show&amp;lang_cd=zh-Hans&amp;filter=0&amp;getfields=*&amp;baseUrl=http%3A%2F%2Fwww.nxp.com%2Fcn%2Fwebapp&amp;SEARCH_OPERATOR=Contains&amp;attempt=-1&amp;rc=1&amp;hl=en&amp;dnavs=&amp;q=TEST"></engine>
+		<engine name="WURTH ELEKTRONIK" key="TEST" coding="utf8" url="http://www.we-online.com/web/en/wuerth_elektronik/searchpage.php?search=TEST"></engine>
+		<!-- <engine name="TI" key="TEST" coding="utf8" url="http://cn.bing.com/search?q=TEST"></engine>  -->
+	</category>
+	<category name="资源">
+	    <engine name="Iconfinder" key="TEST" coding="utf8" url="https://www.iconfinder.com/search/?q=TEST"></engine>
+		<engine name="easyicon" key="TEST" coding="utf8" url="http://www.easyicon.net/iconsearch/TEST/"></engine>
+		<engine name="iconpng" key="TEST" coding="utf8" url="http://www.iconpng.com/search/tag=TEST"></engine>
+		<engine name="百度网盘资源" key="TEST" coding="utf8" url="http://www.friok.com/?s=TEST"></engine>
+		<engine name="小众软件" key="TEST" coding="utf8" url="http://s.appinn.com/cse/search?q=TEST"></engine>
+		<engine name="开源中国" key="TEST" coding="utf8" url="https://www.oschina.net/search?scope=project&amp;q=TEST"></engine>
+		<engine name="找DLL" key="TEST" coding="utf8" url="http://www.zhaodll.com/search.asp?word=TEST"></engine>
+		<engine name="搜字网" key="TEST" coding="utf8" url="http://ziti.sozi.cn/search.php?keyword=TEST"></engine>
+		<engine name="字体量贩" key="TEST" coding="utf8" url="http://www.font5.com.cn/font_search.php?searchkey=TEST"></engine>
+		<engine name="求字体" key="TEST" coding="utf8" url="http://www.qiuziti.com/fontlist.aspx?fn=TEST"></engine>
+	</category>
+	<category name="生活">
+	    <engine name="豆瓣" key="TEST" coding="utf8" url="https://www.douban.com/search?source=suggest&amp;q=TEST"></engine>
+		<engine name="365淘房" key="TEST" coding="utf8" url="http://nj.rent.house365.com/district/dl_kwTEST.html"></engine>
+		<engine name="房天下-租房" key="TEST" coding="gb2312" url="http://zu.nanjing.fang.com/house/s31-kwTEST/"></engine>
+	</category>
+	<category name="购物">
+	    <engine name="淘宝" key="TEST" coding="utf8" url="https://s.taobao.com/search?q=TEST"></engine>
+		<engine name="天猫" key="TEST" coding="utf8" url="https://list.tmall.com/search_product.htm?q=TEST"></engine>
+		<engine name="苏宁易购" key="TEST" coding="utf8" url="http://search.suning.com/TEST/"></engine>
+		<engine name="京东" key="TEST" coding="utf8" url="https://search.jd.com/Search?keyword=TEST&amp;enc=utf-8&amp;pvid=rbkqshxi.)41+e(pasmmsipqye.2"></engine>
+		<engine name="当当" key="TEST" coding="utf8" url="http://search.dangdang.com/?key=TEST"></engine>
+		<engine name="新蛋" key="TEST" coding="utf8" url="http://www.newegg.cn/Search.aspx?keyword=TEST"></engine>
+	</category>
 </WSTB>
