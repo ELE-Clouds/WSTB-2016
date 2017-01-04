@@ -3,7 +3,7 @@
 #by Python2.7
 import urllib
 
-enType={'utf8':'UTF-8','gbk':'gbk','gb2312':'gb2312'}
+enType={'utf8':'UTF-8','gbk':'GBK','gb2312':'GB2312'}
 
 #utf-8编码
 def keyEncode(_strKey,_enCode):
